@@ -12,6 +12,7 @@
         <th>Author</th>
         <th>Pages</th>
         <th>Read</th>
+        <th>Delete</th>
       </tr>
 
       <tbody class="tableBody"></tbody>
@@ -23,7 +24,10 @@
       Title:<input type="text" id="title"/><br>
       Author:<input type="text" id="author"/><br>
       Pages:<input type="text" id="pages"/><br>
-      Read:<input type="text" id="read"/><br>
+      Read:
+      <label><input type="radio" name="readStatus" value='Yes'/>Yes</label>
+      <label><input type="radio" name="readStatus" value='No'/>No</label>
+      <br>
       <input type="button" value="Add book" id=btn>
     </form>
 
